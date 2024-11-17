@@ -35,6 +35,7 @@ public final class DrawNumberSwingView implements DrawNumberView {
     /**
      * Builds a new Swing-based interactive view.
      */
+    @SuppressWarnings("Convert2Lambda")
     public DrawNumberSwingView() {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(new JPanel(new BorderLayout()));
